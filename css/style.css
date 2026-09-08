@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   color: #1f2937;
   font-family: Arial, sans-serif;
   background-color: #f3f4f6;
 }
+
+
 .main-menu {
   display: flex;
   justify-content: space-between;
@@ -15,15 +18,21 @@ body {
   background-color: #1e1b4b;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+
 .website-name {
   color: white;
   font-size: 24px;
   font-weight: bold;
 }
+
+
 .menu-links {
   display: flex;
   gap: 10px;
 }
+
+
 .menu-links a {
   padding: 10px 16px;
   border-radius: 8px;
@@ -31,20 +40,26 @@ body {
   text-decoration: none;
   transition: 0.3s;
 }
+
+
 .menu-links a:hover {
   background-color: #6366f1;
   transform: translateY(-2px);
 }
+
+
 .menu-links a.active {
   color: #1e1b4b;
   background-color: #facc15;
   font-weight: bold;
 }
-/* Main page area */
+
 .page-content {
   width: min(1000px, 90%);
   margin: 50px auto;
 }
+
+----------STOPPING POINT----------
 .hero {
   padding: 70px 30px;
   border-radius: 20px;
