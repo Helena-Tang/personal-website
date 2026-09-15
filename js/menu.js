@@ -16,7 +16,7 @@ $(document).ready(function () {
       let menuHTML = `
         <nav class="main-menu">
           <div class="website-name">
-            Alex's Portfolio
+            Helena's Portfolio
           </div>
 
           <div class="menu-links">
